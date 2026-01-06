@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Suprithaa!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="riddle">
+        <h2>Answer this riddle to enter:</h2>
+        <p>I have keys but open no locks. I have space but no room. You can enter, but you can't go outside. What am I?</p>
+        <input type="text" id="answer" placeholder="Your answer">
+        <button onclick="checkAnswer()">Submit</button>
+        <p id="hint" style="display:none;">Hint: It's something you use every day!</p>
+    </div>
+    <div id="message" style="display:none;">
+        <div id="birthday-text">Happy Birthday Suprithaa! 🎉</div>
+        <audio autoplay>
+            <source src="https://www.soundjay.com/misc/sounds/happy-birthday-song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
